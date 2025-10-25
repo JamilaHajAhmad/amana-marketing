@@ -15,7 +15,7 @@ interface BarChartProps {
   formatValue?: (value: number) => string;
 }
 
-export function BarChart({ 
+export default function BarChart({ 
   title, 
   data, 
   className = "", 
