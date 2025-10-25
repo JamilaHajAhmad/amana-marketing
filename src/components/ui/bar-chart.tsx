@@ -1,3 +1,5 @@
+"use client";
+import React from 'react';
 interface BarChartDataPoint {
   label: string;
   value: number;
