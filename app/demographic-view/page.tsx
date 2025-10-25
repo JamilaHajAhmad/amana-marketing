@@ -3,7 +3,7 @@ import { Navbar } from '../../src/components/ui/navbar';
 import { CardMetric } from '../../src/components/ui/card-metric';
 import { Footer } from '../../src/components/ui/footer';
 import { Users, TrendingUp, Target } from 'lucide-react';
-import { BarChart } from '../../src/components/ui/bar-chart';
+import BarChart  from '../../src/components/ui/bar-chart';
 import { Table } from '../../src/components/ui/table';
 
 const maleMetrics = [
