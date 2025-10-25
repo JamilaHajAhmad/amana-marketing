@@ -1,3 +1,4 @@
+"use client";
 import { Navbar } from '../../src/components/ui/navbar';
 import { CardMetric } from '../../src/components/ui/card-metric';
 import { Footer } from '../../src/components/ui/footer';
