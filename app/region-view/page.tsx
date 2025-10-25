@@ -1,8 +1,17 @@
 "use client";
-import { Navbar } from '../../src/components/ui/navbar';
-import { Footer } from '../../src/components/ui/footer';
-import { BarChart } from '../../src/components/ui/bar-chart';
-import { BubbleMap } from '../../src/components/ui/bubble-map';
+import dynamic from "next/dynamic";
+import { Navbar } from "../../src/components/ui/navbar";
+import { Footer } from "../../src/components/ui/footer";
+
+
+const BarChart = dynamic(() => import("../../src/components/ui/bar-chart"), {
+  ssr: false,
+});
+const BubbleMap = dynamic(() =>
+  import("../../src/components/ui/bubble-map").then(mod => mod.BubbleMap), 
+  { ssr: false }
+);
+
 
 const regionalPerformance = [
   {
