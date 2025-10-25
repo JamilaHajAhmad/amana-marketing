@@ -5,7 +5,7 @@ import { MarketingData, Campaign } from '../../src/types/marketing';
 import { Navbar } from '../../src/components/ui/navbar';
 import { Footer } from '../../src/components/ui/footer';
 import { CardMetric } from '../../src/components/ui/card-metric';
-import { BarChart } from '../../src/components/ui/bar-chart';
+import BarChart  from '../../src/components/ui/bar-chart';
 import { Table } from '../../src/components/ui/table';
 import { SearchFilter } from '../../src/components/ui/search-filter';
 import { DropdownFilter } from '../../src/components/ui/dropdown-filter';
