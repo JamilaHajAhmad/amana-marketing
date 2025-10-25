@@ -1,7 +1,7 @@
 "use client";
 import { Navbar } from '../../src/components/ui/navbar';
 import { Footer } from '../../src/components/ui/footer';
-import { BarChart } from '../../src/components/ui/bar-chart';
+import BarChart from '../../src/components/ui/bar-chart';
 import { Table } from '../../src/components/ui/table';
 
 const devicePerformance = [
